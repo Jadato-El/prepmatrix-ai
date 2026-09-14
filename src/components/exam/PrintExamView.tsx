@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Printer, ArrowLeft, CheckCircle2, Eye, EyeOff } from 'lucide-react';
 import { Exam } from '../../types/index.js';
 

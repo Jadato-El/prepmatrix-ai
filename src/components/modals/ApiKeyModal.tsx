@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Key, CheckCircle2, AlertCircle, Loader2, ExternalLink, Cpu, Shield } from 'lucide-react';
 import { UserSettings } from '../../types/index.js';
 import { ApiService } from '../../services/api.js';

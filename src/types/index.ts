@@ -1,4 +1,4 @@
-﻿export type DifficultyLevel = 'easy' | 'medium' | 'hard';
+export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 
 export interface DocumentSource {
   id: string;

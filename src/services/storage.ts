@@ -1,4 +1,4 @@
-﻿import { DocumentSource, Exam, ExamAttempt, Flashcard, QuizQuestion, UserSettings } from '../types/index.js';
+import { DocumentSource, Exam, ExamAttempt, Flashcard, QuizQuestion, UserSettings } from '../types/index.js';
 
 const STORAGE_KEYS = {
   DOCUMENTS: 'prepmatrix_documents_v1',

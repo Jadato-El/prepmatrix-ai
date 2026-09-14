@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { DifficultyLevel } from '../../types/index.js';
 import { ShieldCheck, Zap, Sparkles } from 'lucide-react';
 

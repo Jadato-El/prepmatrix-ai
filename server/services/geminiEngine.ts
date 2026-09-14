@@ -1,4 +1,4 @@
-﻿import axios from 'axios';
+import axios from 'axios';
 import { DifficultyLevel, Flashcard, QuizQuestion } from '../../src/types/index.js';
 
 export interface GenerateGeminiParams {

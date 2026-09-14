@@ -1,4 +1,4 @@
-﻿# Deploying PrepMatrix AI to the Cloud
+# Deploying PrepMatrix AI to the Cloud
 
 PrepMatrix AI is designed as a unified full-stack web application. It supports **Vercel** (Serverless + Edge CDN), **Render**, **Railway**, and **Docker** out of the box.
 

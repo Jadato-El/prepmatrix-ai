@@ -1,4 +1,4 @@
-﻿import axios from 'axios';
+import axios from 'axios';
 import { DocumentSource, Exam, Flashcard, GenerationOptions, QuizQuestion } from '../types/index.js';
 
 const API_BASE = '/api';

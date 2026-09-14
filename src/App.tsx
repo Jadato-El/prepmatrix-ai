@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/layout/Navbar.js';
 import { Sidebar, ActiveTab } from './components/layout/Sidebar.js';
 import { DocumentManager } from './components/ingestion/DocumentManager.js';

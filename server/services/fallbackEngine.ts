@@ -1,4 +1,4 @@
-﻿import { DifficultyLevel, Flashcard, QuizQuestion } from '../../src/types/index.js';
+import { DifficultyLevel, Flashcard, QuizQuestion } from '../../src/types/index.js';
 
 /**
  * Intelligent fallback generator that parses input document text

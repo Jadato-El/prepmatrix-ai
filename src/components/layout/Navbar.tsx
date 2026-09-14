@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Sparkles, Key, PlusCircle, Download, Upload, Cpu, BookOpen } from 'lucide-react';
 import { UserSettings } from '../../types/index.js';
 
