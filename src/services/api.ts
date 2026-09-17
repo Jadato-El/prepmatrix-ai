@@ -13,7 +13,7 @@ export const ApiService = {
     }
   },
 
-  async verifyGeminiKey(apiKey: string, model: string = 'gemini-2.5-flash'): Promise<{ valid: boolean; error?: string }> {
+  async verifyGeminiKey(apiKey: string, model: string = 'gemini-3.6-flash'): Promise<{ valid: boolean; error?: string }> {
     try {
       const res = await axios.post(`${API_BASE}/verify-gemini-key`, { apiKey, model });
       return { valid: res.data?.valid === true };

@@ -37,7 +37,7 @@ app.get('/api/health', (req, res) => {
 
 // Verify Gemini API Key
 app.post('/api/verify-gemini-key', async (req, res) => {
-  const { apiKey, model = 'gemini-2.5-flash' } = req.body;
+  const { apiKey, model = 'gemini-3.6-flash' } = req.body;
   if (!apiKey) {
     return res.status(400).json({ valid: false, error: 'API key is required' });
   }
