@@ -11,7 +11,7 @@ export interface GenerateGeminiParams {
   focusTopics?: string;
 }
 
-const DEFAULT_MODEL = 'gemini-2.5-flash';
+const DEFAULT_MODEL = 'gemini-3.6-flash';
 
 /**
  * Clean and parse JSON response from LLM, handling markdown code fences

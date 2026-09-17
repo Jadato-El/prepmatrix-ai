@@ -17,7 +17,7 @@ export const ApiKeyModal: React.FC<ApiKeyModalProps> = ({
   onSaveSettings,
 }) => {
   const [apiKey, setApiKey] = useState(settings.geminiApiKey || '');
-  const [selectedModel, setSelectedModel] = useState(settings.geminiModel || 'gemini-2.5-flash');
+  const [selectedModel, setSelectedModel] = useState(settings.geminiModel || 'gemini-3.6-flash');
   const [isVerifying, setIsVerifying] = useState(false);
   const [verifyStatus, setVerifyStatus] = useState<{ valid?: boolean; message?: string } | null>(null);
 
@@ -104,14 +104,14 @@ export const ApiKeyModal: React.FC<ApiKeyModalProps> = ({
               Select AI Model
             </label>
             <select
-              value={selectedModel}
-              onChange={(e) => setSelectedModel(e.target.value)}
-              className="w-full rounded-xl border border-slate-700 bg-slate-950/80 px-4 py-2.5 text-sm text-white focus:border-indigo-500 focus:outline-none"
-            >
-              <option value="gemini-2.5-flash">Gemini 2.5 Flash (Recommended: Ultra-fast & high intelligence)</option>
-              <option value="gemini-1.5-pro">Gemini 1.5 Pro (Deep reasoning & complex synthesis)</option>
-              <option value="gemini-1.5-flash">Gemini 1.5 Flash (Lightweight)</option>
-            </select>
+  value={selectedModel}
+  onChange={(e) => setSelectedModel(e.target.value)}
+  className="w-full rounded-xl border border-slate-700 bg-slate-950/80 px-4 py-2.5 text-sm text-white focus:border-indigo-500 focus:outline-none"
+>
+  <option value="gemini-3.6-flash">Gemini 3.6 Flash (Recommended: Ultra-fast & high intelligence)</option>
+  <option value="gemini-3.1-pro-preview">Gemini 3.1 Pro (Deep reasoning & complex synthesis)</option>
+  <option value="gemini-3.1-flash-lite">Gemini 3.1 Flash-Lite (Lightweight)</option>
+</select>
           </div>
 
           {verifyStatus && (
