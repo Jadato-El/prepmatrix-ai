@@ -219,7 +219,7 @@ const SEED_EXAM: Exam = {
 
 const DEFAULT_SETTINGS: UserSettings = {
   geminiApiKey: '',
-  geminiModel: 'gemini-2.5-flash',
+  geminiModel: 'gemini-3.6-flash',
   studyMode: 'all',
   soundEnabled: true,
   autoReadTTS: false,
